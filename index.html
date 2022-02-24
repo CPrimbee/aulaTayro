@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>TheBox</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <script src="https://kit.fontawesome.com/a2d6b11f3a.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <div>
-        <img src="" alt="logo" />
+      <div id="logo">
+        <img src="./components/images/logo.png" alt="logo" />
         <h1><span>The</span>Box</h1>
       </div>
 
@@ -18,57 +21,62 @@
         <a href="#about-us"><li>About Us</li></a>
         <a href="#projects"><li>Projects</li></a>
         <a href="#services"><li>Services</li></a>
-        <a href="#contact-us"><li>Contact Us</li></a>
+        <a href="#contact-us" id="contact-us-btn"><li>Contact Us</li></a>
       </ul>
     </header>
 
     <main>
       <section id="home">
-        <aside>
-          <h2>Building things</h2>
-          <h2>is our mission.</h2>
+        <section id="home-main">
+          <aside>
+            <h1>Building things</h1>
+            <h1>is our mission.</h1>
+          </aside>
 
-          <div id="feature-projects">
-            <h4>Feature Projects</h4>
+          <article id="feature-projects">
+            <span>Feature Projects</span>
 
             <p>The National University of Architecture</p>
 
-            <div>
-              <button><i><-</i> Back</button>
-              <button>Next<i>-></i></button>
+            <div id="feature-projects-btn">
+              <button><i class="fa-solid fa-arrow-left"></i> Back</button>
+              <button>Next <i class="fa-solid fa-arrow-right"></i></button>
             </div>
           </div>
-        </aside>
+        </section>
 
-        <aside>
-          <h3>Our Reputation</h3>
+        <section id="home-reputation">
+          <aside>
+            <h3>Our Reputation</h3>
 
-          <article>
-            <i aria-label="headphone"></i>
+            <article>
+              <i aria-label="headphone"></i>
 
-            <h4>Best Services</h4>
+              <h4>Best Services</h4>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum!
-            </p>
-          </article>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorum!
+              </p>
+            </article>
 
-          <article>
-            <i aria-label="headphone"></i>
+            <article>
+              <i aria-label="headphone"></i>
 
-            <h4>Best Teams</h4>
+              <h4>Best Teams</h4>
 
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </article>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </article>
 
-          <article>
-            <i aria-label="meter"></i>
+            <article>
+              <i aria-label="meter"></i>
 
-            <h4>Best Designs</h4>
+              <h4>Best Designs</h4>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-          </article>
-        </aside>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </article>
+          </aside>
+        </section>
       </section>
 
       <section id="about-us">
