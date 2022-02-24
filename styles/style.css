@@ -1,13 +1,3 @@
-:root {
-  --primary-color: #2947a9;
-  --features-card-color: #3559c7;
-  --secondary-color: #f9995d;
-  --text-neutral: #14171f;
-  --text-neutral-70: #3d445c;
-  --text-neutral-400: #858ead;
-  --border-color: #e0e3eb;
-}
-
 body {
   max-width: 1440px;
   margin: 0 auto;
